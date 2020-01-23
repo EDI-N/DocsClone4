@@ -132,7 +132,6 @@ html_theme = 'sphinx_rtd_theme'
 def setup(app):
     app.add_stylesheet('theme_overrides_reboot.css')
     app.add_javascript('galaga.js')
-    app.add_javascript('okta.js')
 
 # А это то, что я нагородил (не используй это):
 # import os
