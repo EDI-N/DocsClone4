@@ -41,3 +41,10 @@
 <select id="LanguageDropdown" class="language-dropdown" onChange="window.location.href=this.value"><option value="https://wiki.edi-n.com/uk/latest/">Українська</option><option value="https://wiki.edi-n.com/ru/latest/">Русский</option><option value="https://wiki.edi-n.com/en/latest/">English</option></select>
 {% endblock %}
 
+    <!-- Костыльная  авторизация -->
+{% block footer %}
+{{ super() }}
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+{% endblock %}
